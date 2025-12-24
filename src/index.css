@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italiana&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import "tailwindcss";
+/* Define a gradient template */
+
+@utility gradient-primary {
+  @apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white;
+}
+
+@utility gradient-success {
+  @apply bg-gradient-to-r from-green-400 to-emerald-600 text-white;
+}
+
+@utility gradient-danger {
+  @apply bg-gradient-to-r from-red-500 to-pink-600 text-white;
+}
+
+/* Gradient border utility */
+@utility border-gradient-primary {
+  border: 3px solid transparent;
+  border-image: linear-gradient(to right, #6366f1, #8b5cf6, #ec4899) 1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+
+.logo {
+    font-family: "Inter", sans-serif;
+}
+
+.carousel {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 0 1rem;
+  animation: carousel-scroll 5s linear infinite ;
+  animation-delay: 1s;
+}
+
+@keyframes carousel-scroll {
+  0% {
+    transform: translate(-0);
+  }
+  100% {
+    transform: translate(-100%);
+  }  
+}
