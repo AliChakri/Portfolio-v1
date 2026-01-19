@@ -1,5 +1,5 @@
 import React from "react";
-import { Rocket, Mail, Github, Linkedin, Twitter, Facebook,Heart, ArrowUp, Globe } from "lucide-react";
+import { Rocket, Mail, Github, Linkedin, Twitter, Facebook,Heart, ArrowUp, Globe, Instagram, Music2 } from "lucide-react";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -15,9 +15,9 @@ const Footer = () => {
 
   const socialLinks = [
     { name: "GitHub", icon: Github, href: "https://github.com/AliChakri", color: "hover:text-purple-400" },
-    { name: "Facebook", icon: Facebook, href: "https://www.facebook.com/al.ch.893692/", color: "hover:text-blue-400" },
-    // { name: "Twitter", icon: Twitter, href: "https://twitter.com/yourusername", color: "hover:text-cyan-400" },
-    // { name: "Email", icon: Mail, href: "mailto:ali.chakri@example.com", color: "hover:text-pink-400" },
+    { name: "Facebook", icon: Facebook, href: "https://www.facebook.com/profile.php?id=61565889699856", color: "hover:text-blue-400" },
+    { name: "Instagram", icon: Instagram, href: "https://www.instagram.com/alich.dev/", color: "hover:text-pink-500" },
+    { name: "TikTok", icon: Music2, href: "https://www.tiktok.com/@ali_web_dev1?is_from_webapp=1&sender_device=pc", color: "hover:text-purple-400" },
   ];
 
   return (

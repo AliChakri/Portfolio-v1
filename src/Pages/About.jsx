@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Rocket, Satellite, Globe, Code, Zap, Target, GraduationCap, Calendar, BookOpen } from 'lucide-react';
+import { Rocket, Satellite, Globe, Code, Zap, Target, GraduationCap, Calendar, BookOpen, Headset } from 'lucide-react';
 
 const About = () => {
   
@@ -10,7 +10,7 @@ const About = () => {
   ];
 
   const achievements = [
-    { title: "Projects", value: "15+", icon: Rocket, description: "Successfully completed projects" },
+    { title: "Support", value: "24/7", icon: Headset, description: "Dedicated project communication" },
     { title: "Experience", value: "3Y", icon: Code, description: "Years of coding journey" },
     { title: "Technologies", value: "12+", icon: Zap, description: "Tech stacks mastered" }
   ];
