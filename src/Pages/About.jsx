@@ -10,9 +10,9 @@ const About = () => {
   ];
 
   const achievements = [
-    { title: "Support", value: "24/7", icon: Headset, description: "Dedicated project communication" },
     { title: "Experience", value: "3Y", icon: Code, description: "Years of coding journey" },
-    { title: "Technologies", value: "12+", icon: Zap, description: "Tech stacks mastered" }
+    { title: "Technologies", value: "12+", icon: Zap, description: "Tech stacks mastered" },
+    { title: "Support", value: "24/7", icon: Headset, description: "Dedicated project communication" }
   ];
 
   return (
